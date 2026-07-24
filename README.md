@@ -41,21 +41,20 @@ The project follows clean Object-Oriented Design principles:
   - Map
 
 ## Project Structure
+```
 src
 ├── model
-│ ├── Observation
-│ ├── Violation
-│ └── Fine
-│
+│   ├── Observation.java
+│   ├── Violation.java
+│   └── Fine.java
 ├── rules
-│ ├── Rule
-│ ├── MaxSpeedRule
-│ └── SeatbeltRule
-│
+│   ├── Rule.java
+│   ├── MaxSpeedRule.java
+│   └── SeatbeltRule.java
 ├── radar
-│ └── QuRadar
-│
-└── Main
+│   └── QuRadar.java
+└── Main.java
+```
 
 
 ## How It Works
